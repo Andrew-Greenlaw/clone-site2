@@ -30,29 +30,77 @@
   </style>
 </head>
 
-<body class="debu">
+<body class="debugs">
   <header>
     <!-- SECTION Hero -->
-    <section class="container-fluid hero ">
-      <div class="row knight justify-content-center  text-light text-center align-items-center">
+    <section class="hero container-fluid">
+      <div class="row knight justify-content-center text-light text-center align-items-center">
         <div class="col-md-5 justify-content-center">
-
-          <h1 class="mdi mdi-chess-knight"></h1>
+          <i class="mdi mdi-chess-knight knight-icon"></i>
           <h1>WELCOME TO KNIGHT STUDIOS</h1>
           <h4>We do stuff</h4>
           <button type="button" class="btn btn-success">Get Started!</button>
         </div>
       </div>
+    </section>
+  </header>
+  <main>
+    <!-- SECTION Nvbar -->
+    <section class="container-fluid shadow-sm">
       <div class="row">
-        <div class="col-12">
-          <nav>
-
+        <div class="col-12 navbar-col ">
+          <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <i class="mdi mdi-chess-knight"></i>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="d-flex text-uppercase">
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link active text-success" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text text-success" href="#">Team</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contacts</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </nav>
         </div>
       </div>
     </section>
-  </header>
-  <main>
     <!-- SECTION About Us -->
     <section class="container About">
       <div class="row justify-content-center text-center pb-3">
@@ -68,13 +116,25 @@
             alt="peaple Working" class="img-fluid shadow p-2">
         </div>
         <div class="col-md-6">
-          <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, harum. Voluptatibus repellat eum totam
-            quibusdam assumenda quas accusantium consequuntur officiis doloribus? Autem, aperiam? Vitae inventore natus
-            odio animi sint tenetur?</h3>
-          <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quo ducimus facere odio provident, animi esse
-            et nesciunt. Rem architecto, fugit ipsa itaque cum accusamus nihil culpa exercitationem atque, non labore
-            nulla. Dolore laudantium aliquam obcaecati nobis dicta esse similique non sapiente, adipisci perspiciatis
-            amet autem, a provident dolores reiciendis?</P>
+          <div>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quo ducimus facere odio provident, animi
+              esse
+            </P>
+            <ul>
+              <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, animi.
+              </li>
+              <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, animi.
+              </li>
+              <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, animi.
+              </li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, atque assumenda similique deleniti rerum
+              omnis. Lorem ipsum dolor sit amet consectetur adipisicing elit. In, quas? Lorem ipsum dolor sit amet.</p>
+          </div>
         </div>
       </div>
 
