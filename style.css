@@ -3,14 +3,9 @@
 
 }
 
-
 .hero {
   background-image: url("https://images.unsplash.com/photo-1527049979667-990f1d0d8e7f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
   height: 80vh;
-}
-
-.navbar-col {
-  padding: unset;
 }
 
 .video {
@@ -21,11 +16,27 @@
   height: 100%;
 }
 
+.navbar-col {
+  padding: unset;
+}
+
+
 .knight-icon {
   font-size: 100px;
 }
 
 .doc-icon {
-  font-size: 20px;
+  font-size: 40px;
 
+
+}
+
+.cityimg {
+  background-position: center;
+  background-image: url("https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1888&q=80");
+  height: 60vh;
+}
+
+.carousel-inner {
+  max-height: 50vh;
 }
